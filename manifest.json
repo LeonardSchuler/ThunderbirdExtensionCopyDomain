@@ -10,12 +10,20 @@
             "strict_min_version": "68.0"
         }
     },
-    "browser_action": {
-        "default_popup": "popup.html",
-        "default_title": "Hello World",
-        "default_icon": "images/internet-32px.png"
+    "message_display_action": {
+        "default_title": "Filter++",
+        "default_icon" : "internet.png"
+        },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
     },
     "permissions": [
+        "messagesRead",
+        "tabs",
+        "activeTab",
+        "clipboardWrite"
     ],
     "icons": {
         "64": "images/internet.png",
