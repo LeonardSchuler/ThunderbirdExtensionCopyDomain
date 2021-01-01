@@ -21,7 +21,6 @@
     },
     "permissions": [
         "messagesRead",
-        "tabs",
         "activeTab",
         "clipboardWrite"
     ],
