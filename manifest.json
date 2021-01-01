@@ -1,18 +1,16 @@
 {
     "manifest_version": 2,
-    "name": "Hello World",
-    "description": "Your basic Hello World extension!",
+    "name": "Domain Copy",
+    "description": "Copies the domain of the email's author into the clipboard.",
     "version": "1.0",
-    "author": "[Your Name Here]",
+    "author": "Leonard Schuler",
     "applications": {
         "gecko": {
-            "id": "helloworld@yoursite.com",
             "strict_min_version": "68.0"
         }
     },
     "message_display_action": {
-        "default_title": "Filter++",
-        "default_icon" : "internet.png"
+        "default_title": "Copy Domain"
         },
     "background": {
         "scripts": [
@@ -23,10 +21,5 @@
         "messagesRead",
         "activeTab",
         "clipboardWrite"
-    ],
-    "icons": {
-        "64": "images/internet.png",
-        "32": "images/internet-32px.png",
-        "16": "images/internet-16px.png"
-    }
+    ]
 }
