@@ -1,5 +1,5 @@
 # Description
-Adds a button to the message view. Clicking on the button copies the domain (everything after the "@" symbol) into your clipboard.
+Adds a button to the message view in Thunderbird. Clicking on the button copies the domain (everything after the "@" symbol) into your clipboard.
 
 # Installation
 Git clone the repository and change directory into the cloned repo.
