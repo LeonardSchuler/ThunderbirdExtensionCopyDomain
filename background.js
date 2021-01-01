@@ -1,4 +1,4 @@
-console.log('Hello, World! - from Domain Copier's background.js');
+console.log('Hello, World! - from Domain Copier background.js');
 //var a = messenger.tabs.getCurrent();
 //
 function log(message, result) {
